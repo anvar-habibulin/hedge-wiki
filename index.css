@@ -1,0 +1,107 @@
+body{font-family: 'Noto Sans';
+
+}
+header{ 
+    width: 1200px; 
+    margin: 0 auto;
+}
+h1{font-size: 38px; 
+    font-family: 'Noto Sans'; 
+    font-weight: 150; 
+    text-align: center; 
+    display: inline-block;
+    vertical-align:top;
+
+}
+h2{font-size: 32px; 
+    font-family: 'Noto Sans'; 
+    font-weight: 100;
+    padding: 0 5%;
+
+}
+nav{margin: 10px 15px 20px 45px;
+
+}
+a{margin-right: 20px;
+    font-family: 'Noto Sans'; 
+    font-weight: 350;
+    color: black;
+
+}
+
+main{min-width: 560px;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+footer{border-top: 1px solid gray; 
+    width: 1200px;
+    margin: 5px auto;
+
+}
+.logo{height: 100px;
+
+}
+.img{box-shadow: 0px 5px 10px 0px rgba(7, 72, 6, 0.5);
+    width: 90%;
+    border-radius: 10px;
+    margin: 0 5%;
+
+}
+.img_right{box-shadow: 0px 5px 10px 0px rgba(7, 72, 6, 0.5);
+    width: 90%; 
+    margin: 5%;
+    border-radius: 10px;
+
+}
+
+
+
+.right_block{border: 1px solid rgb(200, 200, 200); 
+    display: inline-block; 
+    float:right; 
+    width: 25%; 
+    margin: 10px;
+
+}
+
+.border_margin{border: 1px solid rgb(200, 200, 200);
+    margin: 5px
+
+}
+
+.inline{display: inline-block; 
+    width: 70%;
+
+}
+.text_in_left_blocks{font-family: 'Noto Sans'; 
+    font-weight: 250;
+    padding: 5%;
+
+}
+.text_in_right_block{width: 90%; 
+    margin: 5%;
+    font-weight: 170;
+
+}
+.mark_text_in_right_block{
+    width: 90%; 
+    margin: 5%;
+    font-weight: 170;
+    background-color: aliceblue;
+}
+.footer{
+    height: 100px;
+    width: 400px;
+    position: relative;
+    left: 50px;
+    top: 0px;
+}
+
+
+
+
+
+
+

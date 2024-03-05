@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,62 +7,33 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-
+    <link rel="stylesheet" href="index.css">
     <title>Ежики</title>
 </head>
-<body style="font-family: 'Noto Sans';">
+<body>
 
-    <header style="width: 1200px; margin: 0 auto;">
-            <img style="height: 100px;" src="еж_лого.webp" alt="">
-            <h1 style="font-size: 38px; 
-                        font-family: 'Noto Sans'; 
-                        font-weight: 150; 
-                        text-align: center; 
-                        display: inline-block;
-                        vertical-align:top;">
+    <header>
+            <img class="logo" src="еж_лого.webp" alt="">
+            <h1>
                 Ежиная википедия
             </h1>
         
-        <nav style="margin: 10px 15px 20px 45px;">
-            <a style="margin-right: 20px;
-                    font-family: 'Noto Sans'; 
-                    font-weight: 350;
-                    color: black;" href="#1">главное</a>
-            <a style="margin-right: 20px;
-                    font-family: 'Noto Sans'; 
-                    font-weight: 350;
-                    color: black;" href="#2">неглавное</a>
-            <a style="margin-right: 20px;
-                    font-family: 'Noto Sans'; 
-                    font-weight: 350;
-                    color: black;" href="#3">единственный в мире</a>
-            <a style="margin-right: 20px;
-                    font-family: 'Noto Sans'; 
-                    font-weight: 350;
-                    color: black;" href="#4">лапоухий</a>
+        <nav>
+            <a href="#1">главное</a>
+            <a href="#2">неглавное</a>
+            <a href="#3">единственный в мире</a>
+            <a href="#4">лапоухий</a>
         </nav>
     </header>
 
-    <main style="min-width: 560px;
-                max-width: 1200px;
-                margin-left: auto;
-                margin-right: auto;">
-        
-        <div style="display: inline-block; width: 70%;">
-            <div style="border: 1px solid rgb(200, 200, 200); margin: 5px;">
-                <h2 style="font-size: 32px; 
-                        font-family: 'Noto Sans'; 
-                        font-weight: 100;
-                        padding: 0 5%;" id="1">
+    <main>
+        <div class="inline">
+            <div class="border_margin">
+                <h2 id="1">
                     Образ жизни
                 </h2>
-                <img style="box-shadow: 0px 5px 10px 0px rgba(7, 72, 6, 0.5);
-                                width: 90%;
-                                border-radius: 10px;
-                                margin: 0 5%;" src="еж_с_кактусом.webp" alt="">
-                <p style="font-family: 'Noto Sans'; 
-                        font-weight: 250;
-                        padding: 5%;">
+                <img class="img" src="еж_с_кактусом.webp" alt="">
+                <p class="text_in_left_blocks">
                         В течение года у ежовых могут быть 1-2 сезона размножения; 
                         вне их ежи ведут одиночный образ жизни и, как правило, имеют 
                         индивидуальные участки для поиска пищи. Беременность длится 
@@ -70,20 +41,12 @@
                         Половая зрелость наступает в возрасте 10-12 месяцев
                 </p>
             </div>
-            <div style="border: 1px solid rgb(200, 200, 200);margin: 5px">
-                <h2 style="font-size: 32px; 
-                font-family: 'Noto Sans'; 
-                font-weight: 100;
-                padding: 0 5%;" id="2">
+            <div class="border_margin">
+                <h2 id="2">
                     Носатый еж
                 </h2>
-                <img style="box-shadow: 0px 5px 10px 0px rgba(7, 72, 6, 0.5);
-                            width: 90%;
-                            border-radius: 10px;
-                            margin: 0 5%;" src="еж_носатый.webp" alt="">
-                <p style="font-family: 'Noto Sans'; 
-                font-weight: 250;
-                padding: 5%;">
+                <img class="img" src="еж_носатый.webp" alt="">
+                <p class="text_in_left_blocks">
                 В послеледниковый период, 6—7 тысяч лет назад, на территории Сахары 
                 господствовал влажный климат, при котором на месте нынешней пустыни был 
                 ландшафт редколесной саванны, а осадков в сезон дождей выпадало 500—700 
@@ -93,20 +56,12 @@
                 мордатых ежей
                 </p>
             </div>
-            <div style="border: 1px solid rgb(200, 200, 200);margin: 5px">
-                <h2 style="font-size: 32px; 
-                font-family: 'Noto Sans'; 
-                font-weight: 100;
-                padding: 0 5%;" id="3">
+            <div class="border_margin">
+                <h2 id="3">
                     Шерстяной еж
                 </h2>
-                <img style="box-shadow: 0px 5px 10px 0px rgba(7, 72, 6, 0.5);
-                            width: 90%;
-                            border-radius: 10px;
-                            margin: 0 5%;" src="еж_пушистый.webp" alt="">
-                <p style="font-family: 'Noto Sans'; 
-                font-weight: 250;
-                padding: 5%;">
+                <img class="img" src="еж_пушистый.webp" alt="">
+                <p class="text_in_left_blocks">
                 Отличается от обычного ежа большим размером ушной раковины: длина его 
                 ушей до 5 см. Иглами покрыта только спина. Размеры мелкие: длина тела 
                 12—27 см, длина хвоста 17—23 мм; подвид, живущий в Пакистане и 
@@ -117,20 +72,12 @@
                 до ярко-рыжего.
                 </p>
             </div>
-            <div style="border: 1px solid rgb(200, 200, 200);margin: 5px">
-                <h2 style="font-size: 32px; 
-                font-family: 'Noto Sans'; 
-                font-weight: 100;
-                padding: 0 5%;" id="4">
+            <div class="border_margin">
+                <h2 id="4">
                     Ушастый еж
                 </h2>
-                <img style="box-shadow: 0px 5px 10px 0px rgba(7, 72, 6, 0.5);
-                            width: 90%;
-                            border-radius: 10px;
-                            margin: 0 5%;" src="еж_ушастый.webp" alt="">
-                <p style="font-family: 'Noto Sans'; 
-                font-weight: 250;
-                padding: 5%;">
+                <img class="img" src="еж_ушастый.webp" alt="">
+                <p class="text_in_left_blocks">
                 Привычные места его обитания — сухие степи и полупустыни, в которых 
                 он придерживается долин рек, орошаемых земель, влажных оврагов, 
                 заброшенных арыков. Часто встречается возле населенных пунктов, 
@@ -139,38 +86,24 @@
             </div>
         </div>
 
-        <div style="border: 1px solid rgb(200, 200, 200); 
-                    display: inline-block; 
-                    float:right; 
-                    width: 25%; 
-                    margin: 10px;">
-            <img style="box-shadow: 0px 5px 10px 0px rgba(7, 72, 6, 0.5);
-                        width: 90%; 
-                        margin: 5%;
-                        border-radius: 10px;" src="еж_на_дереве.webp" alt="основная фотка">
-            <p style="width: 90%; 
-                    margin: 5%;
-                    font-weight: 170;">
+        <div class="right_block">
+            <img class="img_right" src="еж_на_дереве.webp" alt="основная фотка">
+            <p class="text_in_right_block">
                 Ежик обыкновенный. 
             </p>
-            <p style="width: 90%; 
-                    margin: 5%;
-                    font-weight: 170;
-                    background-color: aliceblue;">
-                <a style="color: black;" href="https://ru.wikipedia.org/wiki/Биологическая_систематика">
+            <p class="mark_text_in_right_block">
+                <a href="https://ru.wikipedia.org/wiki/Биологическая_систематика">
                     Научная классификация
                 </a>
             </p>
-            <div style="width: 90%; 
-                        margin: 5%;
-                        font-weight: 170;">
+            <div class="text_in_right_block">
                 <table>       
                     <tr>
                         <td>
                             Домен
                         </td>
                         <td>
-                            <a style="color: black;" href="https://ru.wikipedia.org/wiki/Эукариоты">
+                            <a href="https://ru.wikipedia.org/wiki/Эукариоты">
                             Эукариоты
                             </a>
                         </td>
@@ -180,7 +113,7 @@
                             Царство
                         </td>
                         <td>
-                            <a style="color: black;" href="https://ru.wikipedia.org/wiki/Животные">
+                            <a href="https://ru.wikipedia.org/wiki/Животные">
                             Животные
                             </a>
                         </td>
@@ -190,7 +123,7 @@
                             Тип
                         </td>
                         <td>
-                            <a style="color: black;" href="https://ru.wikipedia.org/wiki/Хордовые">
+                            <a href="https://ru.wikipedia.org/wiki/Хордовые">
                             Хордовые
                             </a>
                         </td>
@@ -200,7 +133,7 @@
                             Класс
                         </td>
                         <td>
-                            <a style="color: black;" href="https://ru.wikipedia.org/wiki/Млекопитающие">
+                            <a href="https://ru.wikipedia.org/wiki/Млекопитающие">
                             Млекопитающие
                             </a>
                         </td>
@@ -210,7 +143,7 @@
                             Отряд
                         </td>
                         <td>
-                            <a style="color: black;" href="https://ru.wikipedia.org/wiki/Насекомоядные">
+                            <a href="https://ru.wikipedia.org/wiki/Насекомоядные">
                             Насекомоядные
                             </a>
                         </td>
@@ -220,7 +153,7 @@
                             Семейство
                         </td>
                         <td>
-                            <a style="color: black;" href="https://anvar-habibulin.github.io/hedge-wiki/">
+                            <a href="https://anvar-habibulin.github.io/hedge-wiki/">
                             Ежики
                             </a>
                         </td>
@@ -230,30 +163,20 @@
         </div>
     </main>
     
-    <footer style="border-top: 1px solid gray; 
-                    width: 1200px;
-                    margin: 5px auto;">
-        <div style="height: 100px;
-        ">
-            <div style="height: 100px;
-            width: 400px;
-            position: relative;
-            left: 50px;
-            top: 0px;
-            ">
+    <footer>
+            <div class="footer">
                 <p>
                     Разработка и дизайн Хабибулин Анвар
                 </p>
-                <p style="line-height: 1px;">
+                <p>
                     <span>
                         Телефон
                     </span>
-                    <span style="font-weight: 200;">
-                        +79106060209
+                    <span>
+                        +79123456789
                     </span>
                 </p>
             </div>
-        </div>
     </footer>
 </body>
 </html>
